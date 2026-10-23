@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 94px 50px;
+  padding: 92px 50px 96px 50px;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -10,7 +10,7 @@
 
 .header__links-list {
   display: flex;
-  gap: 32px; 
+  gap: 28px; 
   list-style: circle;
 }
 
@@ -44,7 +44,7 @@
   align-items: flex-start; 
   max-width: 240px;
   font-style: normal;
-  line-height: 24.3px;
+  line-height: 24px;
 }
 
 .address p {
@@ -84,21 +84,22 @@
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 100px;
-  line-height: 115px;
+  line-height: 1.15;
   text-transform: uppercase;
 }
 
 .aligned-text {
   display: block;
-  letter-spacing: 30px;
+  letter-spacing: 0.3em;
 }
 
 .aligned-text_center {
   text-align: center;
+  letter-spacing: 0.3em;
 }
 
 .aligned-text_right {
-  margin-right: -30px;
+  margin-right: -0.3em;
   text-align: right; 
 }
 
@@ -119,7 +120,7 @@
   font-size: 22px;
   line-height: 28px;
   text-transform: uppercase;
-  word-spacing: 18px;
+  word-spacing: 16px;
 }
 
 .bet-button {
@@ -180,7 +181,7 @@
   justify-content: space-between; 
   box-sizing: border-box;
   height: 100%;
-  padding: 51px 40px 48px;
+  padding: 48px 40px 0px 40px;
   color: #fff;
   background-repeat: no-repeat;
   background-position: center; 
@@ -214,12 +215,11 @@
 .card__text {
   position: relative;
   z-index: 1;
-  margin: 0;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 20px;
-  font-style: normal;
   line-height: 1.2;
+  margin-bottom: 48px;
 }
 
 .lots__look-more-link{
@@ -229,7 +229,7 @@
   font-weight: 400;
   font-size: 20px;
   font-style: normal;
-  line-height: 23px;
+  line-height: 25px;
   letter-spacing: 0%;
   text-decoration: underline;
 }
@@ -255,6 +255,7 @@
   width: 240px;
   height: 240px;
   margin-top: 35px;
+  margin-left:2px;
   border-radius: 50%;
   background-color: #000; 
 }
@@ -265,7 +266,7 @@
 }
 
 .about__column_text{
-  margin-top:136px;
+  margin-top:140px;
 }
 
 .about__title {
@@ -289,6 +290,7 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
+  
 }
 
 .footer {
