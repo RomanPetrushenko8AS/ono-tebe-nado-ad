@@ -94,8 +94,8 @@
 }
 
 .aligned-text_center {
-  text-align: center;
   letter-spacing: 0.3em;
+  text-align: center;
 }
 
 .aligned-text_right {
@@ -215,14 +215,14 @@
 .card__text {
   position: relative;
   z-index: 1;
+  margin-bottom: 48px;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 1.2;
-  margin-bottom: 48px;
 }
 
-.lots__look-more-link{
+.lots__look-more-link {
   padding-left: 40px;
   color: black;
   font-family: "Raleway", sans-serif;
@@ -265,7 +265,7 @@
   height: 114px;
 }
 
-.about__column_text{
+.about__column_text {
   margin-top:140px;
 }
 
